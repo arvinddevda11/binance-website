@@ -6,7 +6,6 @@
 }
 
 .header {
-    /* border: 1px solid black; */
     width: 100%;
     display: flex;
     align-items: center;
@@ -60,7 +59,7 @@
 .button {
     display: flex;
     position: relative;
-    left: 320px;
+    left: 300px;
     font-weight: 500;
     text-decoration: none;
     color: #1d1c1c;
@@ -68,10 +67,15 @@
 
 .sign-up,
 .login {
-    margin-left: 25px;
-    font-size: 17px;
+    /* margin-left: 15px; */
+    font-size: 15px;
+    width: 100px;
     padding: 12px;
-    color: #1E2026;
+    color: #1b1b1b;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .sign-up {
@@ -79,21 +83,23 @@
     border-radius: 4px;
 }
 
+.sign-up:hover {
+    cursor: pointer;
+    background-color: #F8D12F;
+}
+
 .back {
-    /* border: 1px solid black; */
     height: 130px;
     background-color: white;
 }
 
 .container1 {
     height: 640px;
-    /* border: 1px solid blue; */
     display: flex;
 }
 
 .left,
 .right {
-    /* border: 1px solid violet; */
     width: 50%;
 }
 
@@ -115,18 +121,18 @@ h1 {
 }
 
 .search-bar {
-    border: 1px solid #686A6C;
+    border: 0.4px solid #686A6C;
     height: 80px;
     width: 500px;
     margin: 40px 0 0 65px;
     display: flex;
     align-items: center;
-    /* justify-content: space-; */
-
+    opacity: 1;
 }
 
 .search-bar:hover {
     outline: 1px solid #F0B90B;
+    opacity: 1;
 }
 
 #search-email {
@@ -145,6 +151,10 @@ h1 {
     border-radius: 5px;
     background-color: #F0B90B;
 }
+.signup-middle:hover{
+    cursor: pointer;
+    background-color: #F8D12F;
+}
 
 #arrow-middle {
     height: 15px;
@@ -152,20 +162,18 @@ h1 {
 }
 
 .left-last {
-    /* border: 1px solid black; */
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
-    height: 143px;
-    width: 350px;
+    background-color: #202025;
+    height: 150px;
+    width: 355px;
     margin-left: 65px;
     margin-top: 20px;
 }
 
 .left-side {
-    /* border: 1px dotted royalblue; */
     width: 216px;
     height: 264px;
     color: white;
@@ -179,15 +187,16 @@ h1 {
 }
 
 .QR-code {
-    height: 135px;
-    width: 130px;
+    height: 142px;
+    width: 135px;
     border-radius: 20px;
 }
 
 
 #apple-arrow {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
+    border-radius: 8px;
     position: relative;
     left: 63px;
     top: 15px;
@@ -196,11 +205,10 @@ h1 {
 }
 
 .battery-img {
-    margin-left: 20px;
+    margin-left: 17px;
 }
 
 .right {
-    /* border: 1px solid black; */
     background-image: url("./binance-img.webp");
     background-repeat: no-repeat;
     background-size: contain;
@@ -236,12 +244,14 @@ h3 {
     font-size: 20px;
     margin-top: 50px;
 }
-.card-container{
+
+.card-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.cards{
+
+.cards {
     height: 240px;
     width: 1200px;
     display: flex;
@@ -249,7 +259,10 @@ h3 {
     align-items: center;
     margin-top: 60px;
 }
-.card1,.card2,.card3{
+
+.card1,
+.card2,
+.card3 {
     border: 1px solid #b3bcc5;
     border-radius: 25px;
     margin: 5px;
@@ -258,9 +271,10 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-       
+
 }
-.cards-inside{
+
+.cards-inside {
     height: 180px;
     width: 298px;
     display: flex;
@@ -269,16 +283,433 @@ h3 {
     justify-content: space-evenly;
     flex-direction: column;
 }
-.card1-img{
+
+.card1-img {
     height: 40px;
     width: 50px;
 }
-h4{
+
+h4 {
     font-size: 30px;
     color: #222126;
 }
-h5{
+
+h5 {
     font-size: 20px;
     line-height: 1.6;
     color: #686A6C;
+}
+
+.signup-button {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up2:hover {
+    cursor: pointer;
+    background-color: #F8D12F;
+}
+
+.sign-up2 {
+    background-color: #F0B90B;
+    border-radius: 6px;
+    width: 152px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 6px 32px;
+    font-weight: 560;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1E2026;
+    font-size: 16px;
+}
+
+#svg-arrow {
+    margin-left: 10px;
+    height: 15px;
+    font-size: 15px;
+}
+
+.background-text {
+    height: 145px;
+    width: 100%;
+    display: flex;
+    margin-top: 110px;
+
+}
+
+.middle {
+    width: 1154px;
+    background-color: #222126;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    line-height: 20%;
+
+
+}
+
+.middle-text {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+h6 {
+    font-size: 34px;
+    font-weight: 700;
+    height: 34px;
+
+}
+
+pre {
+    font-size: 14px;
+    font-weight: 500;
+    width: 65px;
+
+}
+
+.learn-button {
+    background-color: #FFFFFF;
+    color: #131414;
+    width: 160px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 287px;
+    cursor: pointer;
+
+}
+
+.crypto-text-second {
+    height: 93px;
+    width: 700px;
+    line-height: 32px;
+    margin-left: 320px;
+}
+
+.card-inside-img1 {
+    height: 43px;
+    width: 43px;
+    margin-bottom: 7px;
+
+}
+
+.card-inside-img2 {
+    height: 42px;
+    width: 43px;
+    margin-bottom: 7px;
+
+}
+
+.card-inside-img3 {
+    height: 40px;
+    width: 43px;
+    margin-bottom: 7px;
+}
+
+.scroll-background {
+    height: 700px;
+    width: 100%;
+    position: sticky;
+    top: 90px;
+    z-index: -1;
+    background-color: rgb(27, 27, 25);
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h2-text {
+    position: relative;
+    bottom: 170px;
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.scroll-background-cards {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    /* justify-self: center; */
+
+
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    border: 1px solid rgb(22, 22, 22);
+    border-radius: 10px;
+    height: 236px;
+    width: 276px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    background-color: #292931;
+    color: #1b1b1b;
+}
+
+.h4-text {
+    color: #FFFFFF;
+    font-size: 25px;
+
+}
+
+.scroll-bacground-img {
+    height: 42px;
+    width: 42px;
+    margin-bottom: 30px;
+}
+
+
+.footer-1 {
+    height: 850px;
+    background-color: #FFFFFF;
+
+}
+
+.footer-1-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    height: 295px;
+}
+
+.footer-1-inside {
+    width: 100%;
+    /* height: 600px; */
+    font-size: 70px;
+    line-height: 2;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.h3-text {
+    color: #686A6C;
+    font-size: 20px;
+    margin: 60px;
+    width: 917px;
+}
+
+.footer-card1,
+.footer-card2,
+.footer-card3 {
+    border: 1px solid #E6E8EA;
+    border-radius: 10px;
+    width: 389px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.card1-text {
+    margin: 20px;
+    font-size: 16px;
+    color: #0B0E11;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.card1-mike {
+    font-size: 16px;
+    margin: 20px 0 0 20px;
+    color: #0B0E11;
+    font-weight: 500;
+
+}
+
+.card2-ardel {
+    font-size: 16px;
+    margin: 42px 0 0 20px;
+    color: #0B0E11;
+    font-weight: 500;
+}
+
+.card3-larry {
+    font-size: 16px;
+    margin: 67px 0 0 20px;
+    color: #0B0E11;
+    font-weight: 500;
+}
+
+.card1-ios,
+.card2-ios,
+.card3-ios {
+    font-size: 16px;
+    color: #777E91;
+    margin: 10px 0 0 20px;
+    font-weight: 500;
+
+}
+
+.footer {
+    background-color: #0B0E11;
+    height: 1000px;
+}
+
+.deatails {
+    display: flex;
+    padding: 30px;
+    color: #777E91;
+    justify-content: space-between;
+}
+
+.footer-option-1 {
+    font-weight: 700px;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 60px;
+}
+
+.footer-options {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.footer-options:hover {
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.footer-qr{
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #202025;
+    height: 150px;
+    width: 355px;
+    margin: 20px 0 0 27px;
+}
+
+.footer-last-img {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.right-img-last {
+    height: 60px;
+    width: 111px;
+    margin-right: 30px;
+
+}
+
+.social-media-logo {
+    display: flex;
+}
+
+.facebook-logo,
+.twitter-logo,
+.linkedin-logo,
+.telegram-logo,
+.youtube-logo,
+.instagram-logo,
+.reddit-logo,
+.discord-logo,
+.tiktok-logo {
+    height: 24px;
+    width: 24px;
+    color: white;
+    background-color: #E6E8EA;
+    margin-left: 10px;
+    position: relative;
+    top: 70px;
+    left: 32px;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+hr {
+    border: 1px solid rgb(242, 242, 242);
+    margin: 30px;
+    opacity: 0.1;
+}
+
+.binance-footer-logo{
+    height: 22px;
+    width: 22px;
+    margin: 6px 0 0 46px;;
+}
+.binance-us{
+    font-size: 17px;
+    color: #F0B90B;
+    letter-spacing: 1px;
+    font-weight: bold;
+    position: relative;
+    bottom: 6px;
+
+}
+.us{
+    font-size: 17px;
+    color: #F0B90B;
+    letter-spacing: 1px;
+    font-weight: 100;
+    position: relative;
+    bottom: 6px; 
+    margin-left: -2px;   
+}
+.footer-last-text{
+    color: rgb(132, 142, 156);
+    position: relative;
+    bottom: 7px;
+    left: 50px;
+    font-size: 12px;
+}
+.help-button {
+    border-radius: 50px;
+    height: 40px;
+    width: 82px;
+    background-color: #F0B90B;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 2;
+}
+
+.help-button:hover {
+    cursor: pointer;
+    background-color: #F8D12F;
+}
+
+.chat-button {
+    font-size: 15px;
+    margin-right: 4px;
+}
+
+.revisit-button-img{
+    background-color: blue;
+    border-radius: 50%;
+    padding: 7px;
+}
+.revisit-button{
+    position: fixed;
+    left: 20px;
+    bottom: 15px;
 }
