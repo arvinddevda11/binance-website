@@ -139,6 +139,7 @@ h1 {
     padding: 10px;
     font-size: 20px;
     margin-left: 20px;
+    border: none !important;
 
 }
 
